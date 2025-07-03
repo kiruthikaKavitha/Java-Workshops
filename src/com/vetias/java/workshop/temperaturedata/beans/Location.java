@@ -9,58 +9,58 @@ public class Location {
     private String country;
     private String city;
     private String address;
-    private long postalcode;
-    public void setName(String aName){
-        name=aName;
-    
+    private String postalCode;
+         // Setters and Getters
+    public void setName(String aName) {
+        name = aName;
     }
-    public String getName(){
+    public String getName() {
         return name;
     }
-    public void setLatittute(double aLatitute){
-        latitute=aLatitute;
+    public void setLatitude(double aLatitude) {
+        latitude = aLatitude;
     }
-    public double getLatitute(){
-        return latitute;
+    public double getLatitude() {
+        return latitude;
     }
-    public void setLongitute(double aLongitute){
-        longitute=aLongitute;
+    public void setLongitude(double aLongitude) {
+        longitude = aLongitude;
     }
-    public double getLongitute(){
-        return longitute;
+    public double getLongitude() {
+        return longitude;
     }
-    public void setDescription(String aDescription){
-        description=aDescription;
+    public void setDescription(String aDescription) {
+        description = aDescription;
     }
-    public String getDescription(){
+    public String getDescription() {
         return description;
     }
-    public void setCountry(String aCountry){
-        country=aCountry;
+    public void setCountry(String aCountry) {
+        country = aCountry;
     }
-    public String getCountry(){
+    public String getCountry() {
         return country;
     }
-    public void setCity(String aCity){
-        city=aCity;
+    public void setCity(String aCity) {
+        city = aCity;
     }
-    public String getCity(){
+    public String getCity() {
         return city;
-    
     }
-    public void setAddress(String aAddress){
-        address=aAddress;
+    public void setAddress(String aAddress) {
+        address = aAddress;
     }
-    public String getAddress(){
+    public String getAddress() {
         return address;
+    }
+    public void setPostalCode(String aPostalCode) {
+        postalCode = aPostalCode;
+    }
+    public String getPostalCode() {
+        return postalCode;
+    }
+    
 
-    }
-    public void setPostalcode(long aPostalCode){
-        postalcode=aPostalCode;
-    }
-    public long getPostalcode(){
-        return postalcode;
-    }
 
 
 
