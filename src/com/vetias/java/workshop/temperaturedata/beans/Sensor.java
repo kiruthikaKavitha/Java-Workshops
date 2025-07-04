@@ -1,32 +1,24 @@
 package com.vetias.java.workshop.temperaturedata.beans;
 
-public class Sensor {
-    private String name;
-    private int Sensorid;
-    private double temperature;
-       // Setters and Getters
-    public void setName(String aName) {
-        name = aName;
+public interface Sensor {
+    public float getReading();
+public class TemperatureSensor implements Sensor {
+    private float reading;
+
+    public TemperatureSensor(float aTemperature) {
+        
     }
-    public String getName() {
-        return name;
-    }
-    public void setSensorid(int aSensorid) {
-        Sensorid = aSensorid;
-    }
-    public int getSensorid() {
-        return Sensorid;
-    }
-    public void setTemperature(double aTemperature) {
-        temperature = aTemperature;
-    }
-    public double getTemperature() {
+
+    @Override
+    public float getReading() {
         return temperature;
     }
-    
+
+    public void setReading(float temperature) {
+        this.temperature = temperature;
+    }
 }
-
-
+}
 
 
 
