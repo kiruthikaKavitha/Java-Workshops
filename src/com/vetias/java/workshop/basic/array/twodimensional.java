@@ -2,7 +2,7 @@ package array;
 
 import java.util.Arrays;
 
-public class twodimensional {
+public class Twodimensional {
     public static void main(String[]args){
         String employedetails[][]=new String[5][2];
         employedetails[0][0]="101001" ;
