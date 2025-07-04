@@ -59,6 +59,17 @@ public class Location {
     public String getPostalCode() {
         return postalCode;
     }
+    public String toString(){
+        return "Location{ name:"+name+
+                ", latitude:"+latitude+
+                ", longitude:"+longitude+
+                ", description:"+description+
+                ", country:"+country+
+                ", city:"+city+
+                ", address:"+address+
+                ", postalCode:"+postalCode+" }";
+
+    }
     
 
 
