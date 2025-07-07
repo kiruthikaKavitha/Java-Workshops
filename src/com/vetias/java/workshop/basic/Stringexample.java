@@ -4,9 +4,9 @@ public class Stringexample {
     public static void main(String[] args) {
         String firstname="kiruthika";
         String lastname="kiru";
-        String Name=firstname.concat(lastname);
-        System.out.println(Name);
-        String finalname=Name.toUpperCase();
+        String name=firstname.concat(lastname);
+        System.out.println(name);
+        String finalname=name.toUpperCase();
         System.out.println(finalname);
     
    
